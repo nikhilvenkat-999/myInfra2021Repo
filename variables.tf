@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "key_name" { 
     description = " SSH keys to connect to ec2 instance" 
-    default     =  "eks" 
+    default     =  "LockId " 
 }
 
 variable "instance_type" { 
